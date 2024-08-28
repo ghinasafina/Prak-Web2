@@ -1,3 +1,5 @@
 # PRAKTIKUM WEB 2
-### 1. Modul Pertemuan 1 dan 2
-<pre>A. Materi Pokok</pre>
+## Modul Pertemuan 1 dan 2
+<h4>1. Membuat Class dan Object</h4>
+<p>Definisi Class Mahasiswa</p>
+    
