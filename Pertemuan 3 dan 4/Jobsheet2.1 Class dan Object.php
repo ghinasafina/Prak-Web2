@@ -16,7 +16,9 @@ Class Mahasiswa {
 
     //Fungsi ini digunakan untuk menampilkan data Mahasiswa
     Public function tampilkanData(){
-        return "Nama: $this->nama, NIM: $this->nim, Jurusan: $this->jurusan";
+        echo "Nama: " . $this->nama . "<br>";
+        echo "NIM: " . $this->nim . "<br>";
+        echo "Jurusan: " . $this->jurusan . "<br>";
     }
 }
 

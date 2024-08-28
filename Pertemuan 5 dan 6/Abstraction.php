@@ -4,7 +4,7 @@
 // Kelas ini tidak bisa diinstansiasi langsung dan hanya sebagai dasar untuk kelas lain
 abstract class Shape {
     // Mendeklarasikan metode abstrak 'area'
-// Metode ini harus diimplementasikan di semua kelas yang mewarisi kelas Shape
+    // Metode ini harus diimplementasikan di semua kelas yang mewarisi kelas Shape
     abstract public function area();
 }
 

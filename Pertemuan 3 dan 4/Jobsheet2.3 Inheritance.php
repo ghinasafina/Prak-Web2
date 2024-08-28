@@ -34,7 +34,8 @@ Class Dosen extends Mahasiswa {
 //Membuat object baru dari kelas Dosen dengan nama "Ghina" dan mata kuliah "P WEB 2"
 $dosen1 = new Dosen("Ghina", "P WEB 2");
 //Menampilkan nama dosen
-Echo $dosen1->getNama(); // Output: Pemrograman PHP
+Echo $dosen1->getNama(); // Output: Ghina
+Echo "<br>";
 // Menampilkan mata kuliah yang diajarkan dosen
 Echo $dosen1->getmataKuliah(); //Output: P WEB 2
 

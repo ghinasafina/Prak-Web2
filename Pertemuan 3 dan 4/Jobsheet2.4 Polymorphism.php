@@ -5,9 +5,9 @@ Class pengguna{
     //Tidak ada inisialisasi khusus saat membuat object Mahasiswa
     }
     
-    // Metode ini untuk mendapatkan akses fitur umum yang bisa digunakan semua pengguna
+    // Metode ini untuk mendapatkan akses fitur yang bisa digunakan semua pengguna
     Public function aksesFitur(){
-        return "Akses fitur umum untuk semua Pengguna.";
+        return "Akses fitur untuk semua Pengguna.";
     }
 }
 
@@ -44,7 +44,7 @@ $mahasiswa = new Mahasiswa();
 
 //Menampilkan hasil dari metode aksesFitur() untuk setiap object
 //Ini akan menunjukkan fitur yang bisa diakses oleh Pengguna, Dosen, dan Mahasiswa
-Echo $pengguna->aksesFitur() . "<br>"; //Menampilkan fitur umum untuk Pengguna
+Echo $pengguna->aksesFitur() . "<br>"; //Menampilkan fitur untuk Pengguna
 Echo $dosen->aksesFitur() . "<br>";   //Menampilkan fitur khusus untuk Dosen
 Echo $mahasiswa->aksesFitur();         //Menampilkan fitur khusus untuk Mahasiswa
 

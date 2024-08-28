@@ -36,14 +36,14 @@ class Mahasiswa {
 }
 
 // Membuat objek dari class Mahasiswa dan memberikan nilai-nilai atributnya
-$mahasiswa1 = new Mahasiswa("Budi", "12345678", "Teknik Informatika");
+$mahasiswa1 = new Mahasiswa("Ghina", "12345678", "Komputer dan Bisnis");
 
 // Menampilkan data mahasiswa sebelum perubahan
 echo "Sebelum perubahan NIM:<br>";
 $mahasiswa1->tampilkanData();
 
 // Mengubah NIM mahasiswa menggunakan metode setNim()
-$mahasiswa1->setNim("87654321");
+$mahasiswa1->setNim("230102012");
 
 // Menampilkan data mahasiswa setelah NIM diubah
 echo "<br>Setelah perubahan NIM:<br>";
