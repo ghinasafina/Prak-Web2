@@ -43,8 +43,8 @@
           }
       }
   
-      // Membuat objek Mahasiswa baru dengan nama "Didik Wicaksono", NIM "240102008", dan jurusan "Komputer dan Bisnis"
-      $mahasiswa1 = new Mahasiswa("Didik Wicaksono", "240102008", "Komputer dan Bisnis");
+      // Membuat objek Mahasiswa baru dengan nama "Ghina S.A", NIM "230102012", dan jurusan "Komputer dan Bisnis"
+      $mahasiswa1 = new Mahasiswa("Ghina S.A", "230102012", "Komputer dan Bisnis");
   
       // Menampilkan data awal mahasiswa dengan memanggil metode getter
       echo "Nama : " . $mahasiswa1->getNama() . "<br>";      // Menampilkan nama mahasiswa
@@ -52,8 +52,8 @@
       echo "Jurusan : " . $mahasiswa1->getJurusan() . "<br>";// Menampilkan jurusan mahasiswa
   
       // Mengubah data mahasiswa menggunakan metode setter
-      $mahasiswa1->setNama("Budi Santoso");                  // Mengubah nama mahasiswa menjadi "Budi Santoso"
-      $mahasiswa1->setNim("240102009");                      // Mengubah NIM mahasiswa menjadi "240102009"
+      $mahasiswa1->setNama("Ghina");                  // Mengubah nama mahasiswa menjadi "Ghina"
+      $mahasiswa1->setNim("240102012");                      // Mengubah NIM mahasiswa menjadi "240102012"
       $mahasiswa1->setJurusan("Teknik Informatika");         // Mengubah jurusan mahasiswa menjadi "Teknik Informatika"
   
       // Menampilkan data mahasiswa setelah perubahan dengan memanggil metode getter
